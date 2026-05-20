@@ -33,40 +33,6 @@ function HomePage() {
   return (
     <div className="min-h-screen bg-[#0f172a] text-white flex">
 
-      {/* SIDEBAR */}
-      <aside className="w-72 hidden md:flex flex-col justify-between border-r border-white/10 p-6 bg-[#111827] sticky top-0 h-screen">
-
-        <div>
-          <h1 className="text-3xl font-extrabold mb-12 tracking-wide bg-gradient-to-r from-pink-500 to-purple-500 text-transparent bg-clip-text">
-            Friendo
-          </h1>
-
-          <nav className="space-y-3">
-            {[
-              { icon: Home, label: "Home" },
-              { icon: Search, label: "Search" },
-              { icon: Compass, label: "Explore" },
-              { icon: MessageCircle, label: "Messages" },
-              { icon: Heart, label: "Notifications" },
-              { icon: User, label: "Profile" },
-            ].map((item, index) => (
-              <div
-                key={index}
-                className="flex items-center gap-4 px-4 py-3 rounded-xl hover:bg-white/10 cursor-pointer transition-all duration-300"
-              >
-                <item.icon size={22} />
-                <span className="font-medium">{item.label}</span>
-              </div>
-            ))}
-          </nav>
-        </div>
-
-        <div className="flex items-center gap-4 px-4 py-3 rounded-xl hover:bg-white/10 cursor-pointer transition">
-          <MoreHorizontal size={22} />
-          <span>More</span>
-        </div>
-      </aside>
-
       {/* MAIN FEED */}
       <main className="flex-1 max-w-2xl mx-auto px-4 md:px-8 py-8">
 
