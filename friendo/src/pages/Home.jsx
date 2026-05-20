@@ -131,7 +131,7 @@ function HomePage() {
 
             <div>
               <h3 className="font-semibold">rahulsharma</h3>
-              <p className="text-sm text-gray-400"></p>
+              <p className="text-sm text-gray-400">Rahul</p>
             </div>
           </div>
         </div>
