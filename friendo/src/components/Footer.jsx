@@ -1,109 +1,106 @@
 import React from "react";
 
-import {
-  Instagram,
-  Facebook,
-  Twitter,
-  Github,
-} from "lucide-react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <footer className="bg-[#111827] text-gray-300 border-t border-white/10 mt-10">
+    <footer className="bg-[#0f172a] text-gray-300 border-t border-white/10">
 
       <div className="max-w-7xl mx-auto px-6 py-10">
 
         {/* TOP SECTION */}
-        <div className="flex flex-col md:flex-row justify-between gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
 
           {/* LOGO & ABOUT */}
           <div>
 
-            <h2 className="text-3xl font-bold bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent">
+            <h1 className="text-3xl font-bold text-white">
               Friendo
-            </h2>
+            </h1>
 
-            <p className="mt-4 text-sm text-gray-400 max-w-sm leading-6">
+            <p className="mt-4 text-sm text-gray-400 leading-6">
               Friendo is a modern social media platform where
-              people connect, share memories, and build amazing
-              friendships online.
+              people connect, share memories and make friends.
             </p>
+
           </div>
 
           {/* QUICK LINKS */}
           <div>
 
-            <h3 className="text-white font-semibold mb-4">
+            <h2 className="text-white text-lg font-semibold mb-4">
               Quick Links
-            </h3>
+            </h2>
 
             <ul className="space-y-3 text-sm">
 
               <li>
-                <a
-                  href="/"
-                  className="hover:text-pink-400 transition"
+                <Link
+                  to="/"
+                  className="hover:text-white transition"
                 >
                   Home
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a
-                  href="/profile"
-                  className="hover:text-pink-400 transition"
+                <Link
+                  to="/profile"
+                  className="hover:text-white transition"
                 >
                   Profile
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a
-                  href="/message"
-                  className="hover:text-pink-400 transition"
+                <Link
+                  to="/message"
+                  className="hover:text-white transition"
                 >
                   Messages
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a
-                  href="/help"
-                  className="hover:text-pink-400 transition"
+                <Link
+                  to="/following"
+                  className="hover:text-white transition"
+                >
+                  Following
+                </Link>
+              </li>
+
+              <li>
+                <Link
+                  to="/help"
+                  className="hover:text-white transition"
                 >
                   Help
-                </a>
+                </Link>
               </li>
 
             </ul>
           </div>
 
-          {/* SOCIAL LINKS */}
+          {/* CONTACT */}
           <div>
 
-            <h3 className="text-white font-semibold mb-4">
-              Follow Us
-            </h3>
+            <h2 className="text-white text-lg font-semibold mb-4">
+              Contact
+            </h2>
 
-            <div className="flex gap-4">
+            <p className="text-sm text-gray-400 mb-3">
+              Email: support@friendo.com
+            </p>
 
-              <button className="p-3 bg-white/5 hover:bg-pink-500 transition rounded-xl">
-                <Instagram size={20} />
-              </button>
+            <p className="text-sm text-gray-400 mb-3">
+              Phone: +91 9876543210
+            </p>
 
-              <button className="p-3 bg-white/5 hover:bg-blue-500 transition rounded-xl">
-                <Facebook size={20} />
-              </button>
+            <p className="text-sm text-gray-400">
+              India
+            </p>
 
-              <button className="p-3 bg-white/5 hover:bg-sky-500 transition rounded-xl">
-                <Twitter size={20} />
-              </button>
-
-              <button className="p-3 bg-white/5 hover:bg-gray-700 transition rounded-xl">
-                <Github size={20} />
-              </button>
-
-            </div>
           </div>
         </div>
 
@@ -116,29 +113,30 @@ function Footer() {
 
           <div className="flex gap-6 mt-4 md:mt-0">
 
-            <a
-              href="#"
-              className="hover:text-pink-400 transition"
+            <Link
+              to="/privacy"
+              className="hover:text-white transition"
             >
-              Privacy Policy
-            </a>
+              Privacy
+            </Link>
 
-            <a
-              href="#"
-              className="hover:text-pink-400 transition"
+            <Link
+              to="/terms"
+              className="hover:text-white transition"
             >
               Terms
-            </a>
+            </Link>
 
-            <a
-              href="#"
-              className="hover:text-pink-400 transition"
+            <Link
+              to="/contact"
+              className="hover:text-white transition"
             >
               Contact
-            </a>
+            </Link>
 
           </div>
         </div>
+
       </div>
     </footer>
   );

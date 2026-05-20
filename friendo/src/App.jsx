@@ -17,6 +17,8 @@ import Following from "./pages/Following";
 import Notification from "./pages/Notification";
 import Help from "./pages/Help";
 
+import Footer from "./components/Footer";
+
 function App() {
   return (
     <BrowserRouter>
@@ -33,6 +35,8 @@ function App() {
         <Route path="/notification" element={<Notification />} />
         <Route path="/help" element={<Help />} />
       </Routes>
+
+      <Footer />
 
     </BrowserRouter>
   );
