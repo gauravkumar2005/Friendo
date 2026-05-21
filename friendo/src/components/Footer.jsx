@@ -90,7 +90,7 @@ function Footer() {
             </h2>
 
             <p className="text-sm text-gray-400 mb-3">
-              Email: support@friendo.com
+              Email: friendo@gmail.com
             </p>
 
             <p className="text-sm text-gray-400 mb-3">
