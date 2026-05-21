@@ -15,7 +15,7 @@ function Footer() {
           <div>
 
             <h1 className="text-3xl font-bold text-white">
-              Friendo
+              
             </h1>
 
             <p className="mt-4 text-sm text-gray-400 leading-6">
