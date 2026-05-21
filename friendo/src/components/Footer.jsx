@@ -39,7 +39,7 @@ function Footer() {
                   to="/"
                   className="hover:text-white transition"
                 >
-                  
+                  Home
                 </Link>
               </li>
 
