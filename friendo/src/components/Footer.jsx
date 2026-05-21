@@ -86,7 +86,7 @@ function Footer() {
           <div>
 
             <h2 className="text-white text-lg font-semibold mb-4">
-              
+              Contact
             </h2>
 
             <p className="text-sm text-gray-400 mb-3">
