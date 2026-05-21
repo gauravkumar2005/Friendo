@@ -48,7 +48,7 @@ function Footer() {
                   to="/profile"
                   className="hover:text-white transition"
                 >
-                  
+                  Profile
                 </Link>
               </li>
 
