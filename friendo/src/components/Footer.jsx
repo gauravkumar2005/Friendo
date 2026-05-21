@@ -75,7 +75,7 @@ function Footer() {
                   to="/help"
                   className="hover:text-white transition"
                 >
-                  Help
+                  
                 </Link>
               </li>
 
