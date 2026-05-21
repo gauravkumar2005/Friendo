@@ -66,7 +66,7 @@ function Footer() {
                   to="/following"
                   className="hover:text-white transition"
                 >
-                  Following
+                  
                 </Link>
               </li>
 
