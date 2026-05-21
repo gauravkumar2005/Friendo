@@ -94,7 +94,7 @@ function Footer() {
             </p>
 
             <p className="text-sm text-gray-400 mb-3">
-              Phone: +91 9876543210
+              Phone: +91 9097710004
             </p>
 
             <p className="text-sm text-gray-400">
