@@ -57,7 +57,7 @@ function Footer() {
                   to="/message"
                   className="hover:text-white transition"
                 >
-                  
+                  Messages
                 </Link>
               </li>
 
