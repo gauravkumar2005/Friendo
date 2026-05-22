@@ -71,7 +71,7 @@ function HomePage() {
                     <h3 className="font-semibold text-sm">
                       {post.username}
                     </h3>
-                    <p className="text-xs text-gray-400">India</p>
+                    <p className="text-xs text-gray-400"></p>
                   </div>
                 </div>
 
