@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 
 function HomePage() {
-  const stories = ["Rahul", "Ananya", "Karan", "Priya", "Amit"];
+  const stories = ["Rahul", "Ananya", "Kundan", "Puja", "Amit"];
   const posts = [
     {
       username: "rahulsharma",
