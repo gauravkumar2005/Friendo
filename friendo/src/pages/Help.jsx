@@ -127,7 +127,7 @@ function Help() {
               </div>
 
               <h2 className="text-xl font-semibold">
-                How can I delete 
+                How can I delete my account?
               </h2>
 
             </div>
