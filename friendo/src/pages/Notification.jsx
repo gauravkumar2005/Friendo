@@ -1,95 +1,138 @@
 import React from "react";
 
+import {
+  Heart,
+  MessageCircle,
+  UserPlus,
+} from "lucide-react";
+
 function Notifications() {
   return (
-    <div className="min-h-screen bg-gray-300 flex justify-center p-6">
+    <div className="min-h-screen bg-[#0f172a] flex justify-center p-6 text-white">
 
-      <div className="w-full max-w-2xl bg-white rounded-2xl shadow-lg">
+      <div className="w-full max-w-2xl">
 
-        {/* Header */}
-        <div className="p-6 border-b text-center">
-          <h2 className="text-2xl font-bold">Notifications</h2>
+        {/* HEADER */}
+        <div className="mb-6">
+
+          <h1 className="text-3xl font-bold">
+            Notifications
+          </h1>
+
+          <p className="text-gray-400 mt-2">
+            See your latest updates
+          </p>
+
         </div>
 
-        {/* Notification List */}
-        <div className="divide-y">
+        {/* NOTIFICATION BOX */}
+        <div className="bg-white/5 border border-white/10 rounded-2xl overflow-hidden">
 
-          {/* Notification 1 */}
-          <div className="flex items-center justify-between p-5">
+          {/* NOTIFICATION 1 */}
+          <div className="flex items-center justify-between p-5 border-b border-white/10 hover:bg-white/5 transition">
+
             <div className="flex items-center gap-4">
+
               <img
-                src="https://via.placeholder.com/50"
+                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43c"
                 alt="profile"
                 className="w-12 h-12 rounded-full object-cover"
               />
+
               <div>
+
                 <p className="text-sm">
-                  <span className="font-semibold">rahulsharma</span> liked your post.
+                  <span className="font-semibold">
+                    rahulsharma
+                  </span>{" "}
+                  liked your post
                 </p>
-                <p className="text-xs text-gray-500">2 hours ago</p>
+
+                <p className="text-xs text-gray-400 mt-1">
+                  2 hours ago
+                </p>
+
               </div>
             </div>
+
+            <Heart
+              size={20}
+              className="text-pink-500"
+            />
+
           </div>
 
-          {/* Notification 2 */}
-          <div className="flex items-center justify-between p-5">
+          {/* NOTIFICATION 2 */}
+          <div className="flex items-center justify-between p-5 border-b border-white/10 hover:bg-white/5 transition">
+
             <div className="flex items-center gap-4">
+
               <img
-                src="https://via.placeholder.com/50"
+                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330"
                 alt="profile"
                 className="w-12 h-12 rounded-full object-cover"
               />
+
               <div>
+
                 <p className="text-sm">
-                  <span className="font-semibold">ananyapatel</span> commented: "Nice work!"
+                  <span className="font-semibold">
+                    ananyapatel
+                  </span>{" "}
+                  commented on your photo
                 </p>
-                <p className="text-xs text-gray-500">5 hours ago</p>
+
+                <p className="text-xs text-gray-400 mt-1">
+                  5 hours ago
+                </p>
+
               </div>
             </div>
+
+            <MessageCircle
+              size={20}
+              className="text-blue-400"
+            />
+
           </div>
 
-          {/* Notification 3 */}
-          <div className="flex items-center justify-between p-5">
+          {/* NOTIFICATION 3 */}
+          <div className="flex items-center justify-between p-5 hover:bg-white/5 transition">
+
             <div className="flex items-center gap-4">
+
               <img
-                src="https://via.placeholder.com/50"
+                src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d"
                 alt="profile"
                 className="w-12 h-12 rounded-full object-cover"
               />
+
               <div>
+
                 <p className="text-sm">
-                  <span className="font-semibold">karanmehta</span> started following you.
+                  <span className="font-semibold">
+                    karanmehta
+                  </span>{" "}
+                  started following you
                 </p>
-                <p className="text-xs text-gray-500">1 day ago</p>
+
+                <p className="text-xs text-gray-400 mt-1">
+                  1 day ago
+                </p>
+
               </div>
             </div>
 
-            <button className="px-4 py-1 bg-blue-600 text-white rounded-lg text-sm hover:bg-blue-700 transition">
+            <button className="px-4 py-2 rounded-xl bg-gradient-to-r from-pink-500 to-purple-600 text-sm hover:opacity-90 transition">
+
               Follow Back
-            </button>
-          </div>
 
-          {/* Notification 4 */}
-          <div className="flex items-center justify-between p-5">
-            <div className="flex items-center gap-4">
-              <img
-                src="https://via.placeholder.com/50"
-                alt="profile"
-                className="w-12 h-12 rounded-full object-cover"
-              />
-              <div>
-                <p className="text-sm">
-                  <span className="font-semibold">sneha.verma</span> mentioned you in a comment.
-                </p>
-                <p className="text-xs text-gray-500">2 days ago</p>
-              </div>
-            </div>
+            </button>
+
           </div>
 
         </div>
-
       </div>
-
     </div>
   );
 }
