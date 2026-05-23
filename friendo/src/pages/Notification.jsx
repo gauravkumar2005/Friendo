@@ -20,7 +20,7 @@ function Notifications() {
           </h1>
 
           <p className="text-gray-400 mt-2">
-            See your 
+            See your latest updates
           </p>
 
         </div>
