@@ -87,7 +87,7 @@ function Help() {
 
             <p className="text-gray-400 leading-7">
               Visit your profile page and click on
-              your profile image to upload a new photo.
+              your  to upload a new photo.
             </p>
 
           </div>
