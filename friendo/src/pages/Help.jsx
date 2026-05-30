@@ -105,7 +105,7 @@ function Help() {
               </div>
 
               <h2 className="text-xl font-semibold">
-                How do I report 
+                How do I report a user?
               </h2>
 
             </div>
