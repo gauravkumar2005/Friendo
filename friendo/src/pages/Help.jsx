@@ -80,7 +80,7 @@ function Help() {
               </div>
 
               <h2 className="text-xl font-semibold">
-                How can I change my 
+                How can I change my profile picture?
               </h2>
 
             </div>
