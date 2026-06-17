@@ -71,7 +71,7 @@ public/screenshots/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/friendo.git
+git clone https://github.com/gauravkumar2005/Friendo.git
 ```
 
 ### 2. Navigate to the project directory
