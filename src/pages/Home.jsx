@@ -28,6 +28,13 @@ function HomePage() {
       caption: "Coffee + Chill vibes ☕🤍",
       time: "5 HOURS AGO",
     },
+    {
+      username: "amitkumar",
+      image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085",
+      likes: "1,160",
+      caption: "Coffee + Chill vibes ☕🤍",
+      time: "7 HOURS AGO",
+    },
   ];
 
   return (
