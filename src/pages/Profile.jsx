@@ -32,11 +32,11 @@ function Profile() {
           {/* PROFILE IMAGE */}
           <div className="relative">
             <div className="bg-gradient-to-r from-pink-500 via-red-500 to-yellow-400 p-1 rounded-full">
-              <img
-                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43c"
-                alt="profile"
-                className="w-40 h-40 md:w-48 md:h-48 rounded-full object-cover border-4 border-[#0f172a]"
-              />
+             <img
+               src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d"
+               alt="profile"
+               className="w-40 h-40 md:w-48 md:h-48 rounded-full object-cover border-4 border-[#0f172a]"
+             />
             </div>
 
             {/* ONLINE DOT */}
