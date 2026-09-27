@@ -73,7 +73,7 @@ function Profile() {
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold">1.2K</h3>
+                <h3 className="text-2xl font-bold">5.2K</h3>
                 <p className="text-gray-400 text-sm">Followers</p>
               </div>
 
