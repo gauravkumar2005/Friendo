@@ -78,7 +78,7 @@ function Profile() {
               </div>
 
               <div>
-                <h3 className="text-2xl font-bold">350</h3>
+                <h3 className="text-2xl font-bold">300</h3>
                 <p className="text-gray-400 text-sm">Following</p>
               </div>
             </div>
