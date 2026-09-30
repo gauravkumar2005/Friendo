@@ -90,7 +90,7 @@ function Profile() {
               </p>
 
               <p className="text-gray-300">
-                Full Stack Web Developer | 
+                Full Stack Web Developer | React Developer
               </p>
 
               <p className="text-gray-400">
