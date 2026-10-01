@@ -44,6 +44,27 @@ function Following() {
         "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
       bio: "Photographer 📸",
     },
+    {
+      username: "priyasingh",
+      name: "Priya Singh",
+      image:
+        "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
+      bio: "Photographer 📸",
+    },
+    {
+      username: "priyasingh",
+      name: "Priya Singh",
+      image:
+        "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
+      bio: "Photographer 📸",
+    },
+    {
+      username: "priyasingh",
+      name: "Priya Singh",
+      image:
+        "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
+      bio: "Photographer 📸",
+    },
   ];
 
   return (
