@@ -165,7 +165,7 @@ function Following() {
 
                   <UserCheck size={16} />
 
-                  
+                  Following
                 </button>
 
                 {/* MORE */}
