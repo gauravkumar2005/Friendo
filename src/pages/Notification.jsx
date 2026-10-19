@@ -165,6 +165,41 @@ function Notifications() {
             </button>
 
           </div>
+          
+          {/* NOTIFICATION 4 */}
+          <div className="flex items-center justify-between p-5 hover:bg-white/5 transition">
+
+            <div className="flex items-center gap-4">
+
+              <img
+                src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d"
+                alt="profile"
+                className="w-12 h-12 rounded-full object-cover"
+              />
+
+              <div>
+
+                <p className="text-sm">
+                  <span className="font-semibold">
+                    karanmehta
+                  </span>{" "}
+                  started following you
+                </p>
+
+                <p className="text-xs text-gray-400 mt-1">
+                  1 day ago
+                </p>
+
+              </div>
+            </div>
+
+            <button className="px-4 py-2 rounded-xl bg-gradient-to-r from-pink-500 to-purple-600 text-sm hover:opacity-90 transition">
+
+              Follow Back
+
+            </button>
+
+          </div>
 
         </div>
       </div>
