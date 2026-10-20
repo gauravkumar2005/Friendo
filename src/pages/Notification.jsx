@@ -146,13 +146,13 @@ function Notifications() {
 
                 <p className="text-sm">
                   <span className="font-semibold">
-                    karanmehta
+                    vishalsingh
                   </span>{" "}
                   started following you
                 </p>
 
                 <p className="text-xs text-gray-400 mt-1">
-                  1 day ago
+                  2 day ago
                 </p>
 
               </div>
