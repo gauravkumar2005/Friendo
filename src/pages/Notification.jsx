@@ -187,7 +187,7 @@ function Notifications() {
                 </p>
 
                 <p className="text-xs text-gray-400 mt-1">
-                  
+                  10 day ago
                 </p>
 
               </div>
