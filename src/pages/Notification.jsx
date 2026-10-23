@@ -62,6 +62,40 @@ function Notifications() {
 
           </div>
 
+          {/* NOTIFICATION 1 */}
+          <div className="flex items-center justify-between p-5 border-b border-white/10 hover:bg-white/5 transition">
+
+            <div className="flex items-center gap-4">
+
+              <img
+                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43c"
+                alt="profile"
+                className="w-12 h-12 rounded-full object-cover"
+              />
+
+              <div>
+
+                <p className="text-sm">
+                  <span className="font-semibold">
+                    vipinraj
+                  </span>{" "}
+                  liked your post
+                </p>
+
+                <p className="text-xs text-gray-400 mt-1">
+                  4 hours ago
+                </p>
+
+              </div>
+            </div>
+
+            <Heart
+              size={20}
+              className="text-pink-500"
+            />
+
+          </div>
+
           {/* NOTIFICATION 2 */}
           <div className="flex items-center justify-between p-5 border-b border-white/10 hover:bg-white/5 transition">
 
