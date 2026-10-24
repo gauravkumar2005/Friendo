@@ -130,6 +130,40 @@ function Notifications() {
 
           </div>
 
+          {/* NOTIFICATION 2 */}
+          <div className="flex items-center justify-between p-5 border-b border-white/10 hover:bg-white/5 transition">
+
+            <div className="flex items-center gap-4">
+
+              <img
+                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330"
+                alt="profile"
+                className="w-12 h-12 rounded-full object-cover"
+              />
+
+              <div>
+
+                <p className="text-sm">
+                  <span className="font-semibold">
+                    arjunverma
+                  </span>{" "}
+                  commented on your photo
+                </p>
+
+                <p className="text-xs text-gray-400 mt-1">
+                  7 hours ago
+                </p>
+
+              </div>
+            </div>
+
+            <MessageCircle
+              size={20}
+              className="text-blue-400"
+            />
+
+          </div>
+
           {/* NOTIFICATION 3 */}
           <div className="flex items-center justify-between p-5 hover:bg-white/5 transition">
 
