@@ -38,8 +38,8 @@ function Following() {
       bio: "Travel Creator 🌍",
     },
     {
-      username: "priyasingh",
-      name: "Priya Singh",
+      username: "arjunverma",
+      name: "Arjun Verma",
       image:
         "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
       bio: "Photographer 📸",
