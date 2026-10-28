@@ -59,8 +59,8 @@ function Following() {
       bio: "Photographer 📸",
     },
     {
-      username: "priyasingh",
-      name: "Priya Singh",
+      username: "vipinraj",
+      name: "Vipin Raj",
       image:
         "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
       bio: "Photographer 📸",
