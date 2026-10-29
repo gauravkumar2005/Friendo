@@ -49,7 +49,7 @@ function Following() {
       name: "Priya Singh",
       image:
         "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
-      bio: "Photographer 📸",
+      bio: "Data Scientist 📊",
     },
     {
       username: "vishalsingh",
@@ -63,7 +63,7 @@ function Following() {
       name: "Vipin Raj",
       image:
         "https://images.unsplash.com/photo-1544005313-94ddf0286df2",
-      bio: "Photographer 📸",
+      bio: "Data Scientist 📊",
     },
   ];
 
