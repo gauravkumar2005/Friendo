@@ -22,6 +22,13 @@ function HomePage() {
       time: "2 HOURS AGO",
     },
     {
+      username: "rahulsharma",
+      image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+      likes: "1,240",
+      caption: "Enjoying a beautiful sunset 🌅✨",
+      time: "2 HOURS AGO",
+    },
+    {
       username: "ananyapatel",
       image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085",
       likes: "980",
