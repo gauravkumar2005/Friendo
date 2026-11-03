@@ -22,7 +22,7 @@ function HomePage() {
       time: "2 HOURS AGO",
     },
     {
-      username: "AnanyaPatel",
+      username: "mohitsingh",
       image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
       likes: "1,550",
       caption: "Enjoying a beautiful sunset 🌅✨",
@@ -31,7 +31,7 @@ function HomePage() {
     {
       username: "ananyapatel",
       image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085",
-      likes: "980",
+      likes: "1,080",
       caption: "Coffee + Chill vibes ☕🤍",
       time: "5 HOURS AGO",
     },
