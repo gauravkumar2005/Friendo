@@ -163,7 +163,7 @@ function HomePage() {
           </div>
 
           <div className="space-y-5">
-            {["vikram", "sneha", "rohit"].map((user, i) => (
+            {["vikram", "sneha", "rohit", "Aananya"].map((user, i) => (
               <div
                 key={i}
                 className="flex items-center justify-between"
